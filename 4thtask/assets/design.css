@@ -1,0 +1,36 @@
+html{
+    background-color: #F9FAD2;
+}
+div h1 {
+    text-align: center;
+}
+#firstfieldset{
+    background-color: white ;
+    border-radius: 8px;
+    width: 40%;
+    
+}
+.mainfieldset{
+    
+}
+#motivationtext{
+    width: 400px;
+    height: 100px;
+         
+}
+#contacttext{
+    width: 400px;
+    height: 100px;      
+}
+
+#sendbutton{
+    margin-left: 35%;
+    background-color: red ;
+    color: white;
+    font-size: larger;
+}
+#attachbutton{
+    background-color: red ;
+    color: white;
+    font-size: medium;
+}

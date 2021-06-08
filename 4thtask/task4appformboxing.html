@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/design.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+            border-radius: initial;
+        }
+        
+    </style>
+    <title>applicationform</title>
+
+    
+   
+</head>
+
+
+
+<fieldset class="firstfieldset" id="firstfieldset">
+    <div><h1><b>Application for permission to Date my Daughter</b></h1></div>
+    <p> <strong>Note :</strong>Form must be fullfilled at least 21 days prior to date</p>
+<fieldset class="mainfieldset" id="mainfieldset" > <legend> <strong>Personal Details</strong></legend>
+    <br>
+<form  action="">
+    <div>
+    <label for="Name"> <strong>Name :</strong></label>
+    <input type="text" id="Name" placeholder="Enter name here"> 
+    </div> <br>
+    
+    <div>
+    <label for="Adress"><strong>Address :</strong></label>
+    <input type="adress" id="adress" placeholder="Enter address here">
+    </div>
+<br>
+    <div>
+    <label for="Email"> <strong>Email :</strong></label>
+    <input type="email" id="email" placeholder="Enter email here">
+    </div>
+    <br>
+        <div>
+            <label for="number"> <strong>Phone Number :</strong></label>
+            <input type="number" id="number" placeholder="Enter 10 digit number ">
+        </div>
+        <br>
+        <div>
+            <label for="iq"> <strong>İQ :</strong></label>
+            <input type="iq" id="iq" placeholder="Enter IQ here ">
+        </div>
+        <br>
+        
+    <strong>Gender</strong>
+    <br>
+    <br>
+
+    <div>
+    <input type="radio" id="Male" name="Gender" value="Male">
+    <label for="Male"> <strong>Male</strong></label> <br>
+    <input type="radio" id="Female" name="Gender" value="Female">
+    <label for="Female"> <strong>Female</strong></label> <br>
+    <input type="radio" id="Other" name="Gender">
+    <label for="Other"> <strong>Other</strong></label value="Other"><br>
+     </div>
+
+     <div>
+         <p> <strong>Date of Proposed Outing : <label for="date"></label>
+            <input type="date" id="date" value="date"> </strong></p> 
+     </div>                  
+</fieldset>
+<br>
+<fieldset>
+<p> <strong>Check all that apply</strong> </p>
+
+
+<input type="checkbox" value="check1" id="check1">
+<label for="check1">Lorem ipsum dolor sit amet.</label> <br>
+<input type="checkbox" value="check1" id="check1">
+<label for="check1">Lorem ipsum dolor sit amet.</label> <br>
+<input type="checkbox" value="check1" id="check1">
+<label for="check1">Lorem ipsum dolor sit amet.</label> <br>
+<input type="checkbox" value="check1" id="check1">
+<label for="check1">Lorem ipsum dolor sit amet.</label> <br>
+<input type="checkbox" value="check1" id="check1">
+<label for="check1">Lorem ipsum dolor sit amet.</label> <br>
+<input type="checkbox" value="check1" id="check1">
+<label for="check1">Lorem ipsum dolor sit amet.</label> <br>
+    
+</fieldset>
+<br>
+<fieldset>
+
+<label for="Political"><strong>Political persuasion</strong>
+<select name="Political" id="Political">
+<option value="rightwing" id="rightwing">Right Wing</option>
+<option value="leftwing" id="leftwing">Left Wing</option>
+</select>
+
+
+<label for="education"><strong>Education Level</strong></label>
+<select name="education" id="education">
+<option value="university" id="university">University</option>
+<option value="school" id="school">School</option>
+</select>
+
+</fieldset>
+<br>
+<fieldset> <legend><strong>Essay Section</strong></legend>
+<br>
+    <p> <strong>In 50 words or more explain why you want to date my Daughter</strong> </p>
+    <br>
+    <label for="motivation" id="motivation" ></label>
+    <input type="text" placeholder="Enter Text here" id="motivationtext"> <br>
+    <p> <strong>Please upload 2 contacts for references</strong> </p>
+    <label for="contactdetails" id="contactdetails" ></label>
+    <input type="text" placeholder="Enter Text here" id="contacttext"> <br>
+    
+    <p> <strong>Upload police clearance, Medical Insurance and Bank Statement:</strong> <button type="file" id="attachbutton">Attach Files </button>
+        <input type="file" id="file" name="file" value=".pdf"> </p>
+        
+</fieldset>
+<br>
+<button id="sendbutton"> <strong>Send your Application</strong> </button>
+</fieldset>    
+</form>
+
+<body>
+    
+</body>
+</html>
