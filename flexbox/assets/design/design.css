@@ -1,0 +1,273 @@
+html{
+          
+        background-color: rgba(255, 255, 255, 0.486);
+    
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+#headerdiv{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #102A40;
+    
+}
+.minieyes{
+    width: 40px;
+    height: 4px;
+    background-color: #1CC8A0;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+    align-self: center;
+    
+}
+.minicubes {
+    width: 20px;
+    height: 20px;
+    background-color: #1CC8A0;
+    border-radius: 2px;
+    align-self: center;    
+
+    }
+
+#minicubescontainer{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #102A40;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+#bigheaderdiv{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #CED8E1;
+    
+}
+.sweetcube{
+    width: 140px;
+    height: 40px;
+    background-color: #102A40;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+    align-self: center;
+
+}
+#minieyescontainer{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    width: 100%;
+    height: 90px;
+    background-color: #CED8E1;
+}
+.minieyes1{
+    width: 40px;
+    height: 4px;
+    background-color: #1CC8A0;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 65px;   
+    
+}    
+#firstmain{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #102A40;
+    justify-content: center;
+    
+
+}
+.mainminieyes{
+    color: #fff;   
+    width: 70%;
+    height: 80%;   
+    margin-top: 100px;
+    flex-wrap: wrap;
+    
+}
+ 
+
+#bigwindows{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    margin-top: -150px;
+
+}
+.firstwindow{
+    width: 300px;
+    height: 200px;
+    background-color: #1CC8A0;
+    border-radius: 10px;
+    align-self: center;    
+}
+
+#products2{
+    display: flex;        
+    justify-content: center;
+}
+
+.product2{
+    width: 450px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;    
+    border-style: ridge;
+    border-radius: 10px;
+
+}
+.firstwindow2{
+    width: 410px;
+    height: 200px;
+    background-color: #102A40;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;    
+        
+}
+#products1{
+    display: flex;     
+    justify-content: center;
+    
+}
+
+.product1{
+    width: 450px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.firstwindow1{
+    width: 410px;
+    height: 200px;
+    background-color: #102A40;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;  
+    
+        
+}
+
+#bigwindowsfoot{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    
+
+}
+.lastwindow{
+    width: 350px;
+    height: 350px;
+   
+    background-color: #1CC8A0;
+    border-radius: 10px;
+    align-self: center;
+
+      
+}
+
+#footcircle{
+    display: flex;     
+    justify-content: center;
+    
+}
+
+.footercircle{
+    width: 450px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    
+}
+
+.footercirclewindow{
+    width: 300px;
+    height: 300px;
+    background-color: #102A40;    
+    margin-top: 20px;    
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 75px;
+        
+}
+
+#cirles{
+    display: flex;
+    width: 100%;
+    height: 680px;
+    
+    justify-content: center;
+}
+#lastelement{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #102A40;
+    justify-content: center;
+}
+
+.lastcubes {
+    width: 20px;
+    height: 20px;
+    background-color: #1CC8A0;
+    border-radius: 2px;
+    align-self: center;   
+
+    }
+
+#lastcubescontainer{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #102A40;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 40px;
+    
+}
+#minieyeslastcontainer{
+
+    display: flex;
+    justify-content: center;
+
+}
+.minilasteyes1{
+    width: 40px;
+    height: 4px;
+    background-color: #1CC8A0;
+    border-radius: 10px;
+    margin-left: -115px;
+    margin-top: 165px;   
+    
+}
+#footprinter{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.footprint{
+    align-self: center;
+    font-size: small;
+    align-self: center;
+    margin-left: 60px;
+}    
+

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+#mainimage{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col6{
+    width: 50%;
+    padding: 20px 0px 80px 0px;
+    
+}
+.rowimages{
+    border-top: 8px rgb(238, 182, 27) solid;
+    
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+}
+
+h3{
+    font-size: xx-large;
+    letter-spacing: 2px;
+    padding: 10px 0px 25px 0px;
+}
+.newdiv{
+    width: 70%;
+    height: 120px;
+    background-color: rgb(238, 182, 27) ;
+    opacity: 0.75;
+    display: flex;
+    position: absolute;
+    margin-top: -200px;
+}
+h1{
+    align-self: center;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+@media screen and (max-width: 600px) {
+    .colsm12 {
+        width: 100%;
+    }
+    
+}
+
